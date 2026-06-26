@@ -1,0 +1,31 @@
+# ── REQUIRED (choose one) ────────────────────────────────────
+SESSION_ID=GlobalTechInfo/MEGA-MD_your_gist_id_here
+# OR
+PAIRING_NUMBER=923001234567
+
+# ── REQUIRED ─────────────────────────────────────────────────
+OWNER_NUMBER=923000000000        # No + sign
+
+# ── BOT IDENTITY ─────────────────────────────────────────────
+BOT_NAME=MEGA-MD-PRO
+BOT_OWNER=GlobalTechInfo
+PACKNAME=MEGA-MD
+
+# ── BEHAVIOUR ────────────────────────────────────────────────
+PREFIXES=.,!,/                   # Comma-separated
+COMMAND_MODE=public              # public or private
+TIMEZONE=Asia/Karachi
+
+# ── OPTIONAL API KEYS ────────────────────────────────────────
+REMOVEBG_KEY=                    # https://remove.bg/api
+GIPHY_API_KEY=                   # https://developers.giphy.com
+
+# ── PERFORMANCE ──────────────────────────────────────────────
+PORT=5000
+MAX_STORE_MESSAGES=50
+
+# ── DATABASE (all empty = JSON files) ────────────────────────
+MONGO_URL=
+POSTGRES_URL=
+MYSQL_URL=
+DB_URL=                          # SQLite: ./data/baileys.db
