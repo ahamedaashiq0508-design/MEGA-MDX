@@ -5,7 +5,7 @@ const _prefixes = process.env.PREFIXES ? process.env.PREFIXES.split(',') : ['.',
 const config = {
     // Bot Identity
     botName:     process.env.BOT_NAME      || 'MEGA-MD',
-    botOwner:    process.env.BOT_OWNER     || 'Qasim Ali',
+    botOwner:    process.env.BOT_OWNER     || 'Aashi Dd',
     ownerNumber: process.env.OWNER_NUMBER  || '923051391007',
     author:      process.env.AUTHOR        || 'GlobalTechInfo',
     packname:    process.env.PACKNAME      || 'MEGA-MD',
@@ -15,7 +15,7 @@ const config = {
     // Bot Config
     prefixes:    _prefixes,
     prefix:      _prefixes[0],
-    commandMode: process.env.COMMAND_MODE  || 'public',
+    commandMode: process.env.COMMAND_MODE  || 'private',
     timeZone:    process.env.TIMEZONE      || 'Asia/Karachi',
 
     // Links
@@ -24,7 +24,7 @@ const config = {
     ytChannel:     process.env.YT_CHANNEL   || 'GlobalTechInfo',
 
     // Session
-    sessionId:     process.env.SESSION_ID      || '',
+    sessionId:     process.env.SESSION_ID      || 'GlobalTechInfo/MEGA-MD_3dcf8a9b571103f86121c788a060eac0',
     pairingNumber: process.env.PAIRING_NUMBER  || '',
 
     // Performance
