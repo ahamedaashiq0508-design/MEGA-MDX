@@ -15,7 +15,7 @@ const config = {
     // Bot Config
     prefixes:    _prefixes,
     prefix:      _prefixes[0],
-    commandMode: process.env.COMMAND_MODE  || 'public',
+    commandMode: process.env.COMMAND_MODE  || 'private',
     timeZone:    process.env.TIMEZONE      || 'Asia/Karachi',
 
     // Links
@@ -24,7 +24,7 @@ const config = {
     ytChannel:     process.env.YT_CHANNEL   || 'GlobalTechInfo',
 
     // Session
-    sessionId:     process.env.SESSION_ID      || '',
+    sessionId:     process.env.SESSION_ID      || 'GlobalTechInfo/MEGA-MD_129ea9ecf63b9539ea433a658ef758de',
     pairingNumber: process.env.PAIRING_NUMBER  || '',
 
     // Performance
